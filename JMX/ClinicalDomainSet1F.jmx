@@ -16,7 +16,7 @@
       </CookieManager>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config-Conditions">
-        <stringProp name="filename">../Datafiles/UserData_ConditionsCategory.csv</stringProp>
+        <stringProp name="filename">../Datafiles/ClinicalDomainSet1/UserData_ConditionsCategory.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames"></stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -8871,7 +8871,7 @@ sampler.setName(updatedLabel);
         <hashTree/>
       </hashTree>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config-Lifestyle">
-        <stringProp name="filename">../Datafiles/UserData_LifestyleCategory.csv</stringProp>
+        <stringProp name="filename">../Datafiles/ClinicalDomainSet1/UserData_LifestyleCategory.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames"></stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -17423,7 +17423,7 @@ sampler.setName(updatedLabel);
         <hashTree/>
       </hashTree>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config-SocialCircumstances">
-        <stringProp name="filename">../Datafiles/UserData_SocialCircumstancesCategory.csv</stringProp>
+        <stringProp name="filename">../Datafiles/ClinicalDomainSet1/UserData_SocialCircumstancesCategory.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames"></stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -26332,7 +26332,7 @@ sampler.setName(updatedLabel);
         <hashTree/>
       </hashTree>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config - Investigations">
-        <stringProp name="filename">../Datafiles/UserData_InvestigationsCategory.csv</stringProp>
+        <stringProp name="filename">../Datafiles/ClinicalDomainSet1/UserData_InvestigationsCategory.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames"></stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -36446,7 +36446,7 @@ sampler.setName(updatedLabel);
         <hashTree/>
       </hashTree>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config-Medication">
-        <stringProp name="filename">../Datafiles/UserData_MedicationCategory.csv</stringProp>
+        <stringProp name="filename">../Datafiles/ClinicalDomainSet1/UserData_MedicationCategory.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames"></stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>

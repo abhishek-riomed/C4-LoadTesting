@@ -1,0 +1,16 @@
+{
+  "patletId": null,
+  "patletSgrId": 482136,
+  "patletRefId": 13876,
+  "patletPatId": 11069,
+  "patletLettmplId": 15,
+  "patletName": "Summary Letter Patient",
+  "patletType": "Discharge Summary",
+  "patletStatus": "draft",
+  "patletJson": "{\"letterData\":{\"letterName\":\"Summary Letter Patient\",\"letterType\":\"Discharge Summary\",\"letterLocation\":7595,\"recipient\":{\"id\":\"1\",\"label\":\"GP\",\"recipient\":\"GP\"},\"showLettersInPatient\":false,\"pageSize\":{\"id\":1,\"label\":\"A1\",\"name\":\"a1\",\"width\":\"59.4\",\"height\":\"84.1\"},\"letterMargin\":{\"id\":1,\"label\":\"Normal\",\"name\":\"normal\"},\"top\":2.54,\"bottom\":2.54,\"left\":2.54,\"right\":2.54,\"assessmentCreate\":true},\"letterForm\":[{\"id\":\"1747711179690\",\"label\":\"Letter Header\",\"isEditing\":false,\"objectType\":\"letterHeader\",\"properties\":{\"size\":12,\"headerTop\":\"\",\"headerHeight\":\"2.3\",\"requiredPage\":\"\",\"justifyContent\":\"space-between\",\"letterHeaderLayout\":\"Logo and Date\"},\"componentData\":[{\"id\":\"letterHeaderLogo\",\"label\":\"Logo\",\"objectType\":\"imageBox\",\"properties\":{\"size\":10,\"width\":50,\"height\":50,\"justifyContent\":\"flex-start\"}},{\"id\":\"letterHeaderDate\",\"value\":\"20/05/2025\",\"adcCode\":\"TodaysDate\",\"adcName\":\"Today's Date\",\"tagType\":\"typography\",\"objectType\":\"tag\",\"properties\":{\"font\":\"'Times New Roman', serif\",\"size\":\"\",\"fontSize\":\"12\",\"alignItem\":\"start\",\"fontStyle\":\"\",\"fontWeight\":\"\",\"lineHeight\":\"\",\"lineSpacing\":\"1.0\",\"paddingLeft\":\"3px\",\"paddingRight\":\"0px\",\"justifyContent\":\"flex-start\",\"textDecoration\":\"\"}}]}]}",
+  "patletdHighlySensitive": 1,
+  "patletLetterDate": "23/05/2025",
+  "patletdStartDate": "23/05/2025",
+  "patletdEndDate": "23/05/2025",
+  "patletdRequestApprovalBy": null
+}

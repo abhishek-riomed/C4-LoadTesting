@@ -30,7 +30,7 @@
         <boolProp name="CounterConfig.per_user">false</boolProp>
       </CounterConfig>
       <hashTree/>
-      <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config">
+      <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
         <stringProp name="delimiter">,</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="filename">../Datafiles/ImagingDomain.csv</stringProp>
@@ -13502,7 +13502,7 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="LogOut"/>
+        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="LogOut" enabled="true"/>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="LogOut/cellmaUserAPI/user/logout-2,801" enabled="true">
             <stringProp name="HTTPSampler.domain">api.testcellma.com</stringProp>
