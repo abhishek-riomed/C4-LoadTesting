@@ -1,0 +1,14 @@
+{
+  "mediId": [37484],
+  "mediSgrId": "498296",
+  "mediPatId": 11051,
+  "paprePrescribedBy": "Mr Jayant Testcellma",
+  "papreCode": "",
+  "papreNumberItemsOnPrescription": 1,
+  "stockLocationId": 4,
+  "paprePrescriptionGroup": "IP prescription",
+  "paprdExternalPharmacyEliId": "",
+  "paprdForClinicId": 3,
+  "papreClinicDate": "21/05/2025",
+  "paprdNotes": ""
+}
