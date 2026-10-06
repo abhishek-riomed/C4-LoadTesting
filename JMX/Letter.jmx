@@ -23,7 +23,7 @@
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Letters">
         <intProp name="ThreadGroup.num_threads">100</intProp>
-        <intProp name="ThreadGroup.ramp_time">800</intProp>
+        <intProp name="ThreadGroup.ramp_time">600</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
@@ -5306,7 +5306,7 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="Create Letter Draft" enabled="true"/>
+        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="Create Letter Draft"/>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Letters page/cellmaUserAPI/letter/sidebar/display-1,369" enabled="true">
             <stringProp name="HTTPSampler.domain">api.testcellma.com</stringProp>
@@ -5794,7 +5794,7 @@
             </RegexExtractor>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Letters page/cellmaUserAPI/letter-1,398" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Letters page/cellmaUserAPI/letter-1,398">
             <stringProp name="HTTPSampler.domain">api.testcellma.com</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -5810,9 +5810,9 @@
                   <stringProp name="File.path">${letterJsonPath}</stringProp>
                   <stringProp name="File.paramname">patientLetterJson</stringProp>
                 </elementProp>
-                <elementProp name="../Datafiles/LetterDomain/letter/dummy.pdf" elementType="HTTPFileArg">
+                <elementProp name="../Datafiles/LetterDomain/dummy.pdf" elementType="HTTPFileArg">
                   <stringProp name="File.mimetype">application/pdf</stringProp>
-                  <stringProp name="File.path">../Datafiles/LetterDomain/letter/dummy.pdf</stringProp>
+                  <stringProp name="File.path">../Datafiles/LetterDomain/dummy.pdf</stringProp>
                   <stringProp name="File.paramname">file</stringProp>
                 </elementProp>
               </collectionProp>
@@ -5891,7 +5891,7 @@
               <stringProp name="RandomTimer.range">300</stringProp>
             </UniformRandomTimer>
             <hashTree/>
-            <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="true">
+            <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor">
               <boolProp name="resetInterpreter">false</boolProp>
               <stringProp name="parameters"></stringProp>
               <stringProp name="filename"></stringProp>
@@ -5904,7 +5904,7 @@ String patletRefId = vars.get(&quot;Letter_patRefId&quot;);
 String patletSgrId = vars.get(&quot;Letter_patSgrId&quot;);
 
 // Define path to write JSON file (with forward slashes)
-String filePath = &quot;C:/NewJmeter/apache-jmeter-5.6.3/apache-jmeter-5.6.3/bin/Data Files/Domain Load Testing/letter/letterData.json&quot;;
+String filePath = &quot;../Datafiles/LetterDomain/letterData.json&quot;;
 
 // Create full JSON string with dynamic injection
 String jsonContent = &quot;{\n&quot; +
@@ -7945,7 +7945,7 @@ vars.put(&quot;letterJsonPath&quot;, filePath)
             <hashTree/>
           </hashTree>
         </hashTree>
-        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="ServiceLetter" enabled="true"/>
+        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="ServiceLetter"/>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Letters page/cellmaUserAPI/letter-1,398" enabled="false">
             <stringProp name="HTTPSampler.domain">api.testcellma.com</stringProp>
